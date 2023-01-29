@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primaryColor:#f3a683;
+$secondaryColor:#f7d794;
+$textColor:#262626;
+$textWhite:#fff;
+$fontPrimary:'Poppins', sans-serif;
+
+body{
+    color: #262626;
+    font-family: $fontPrimary;
+    font-size: 15px;
+    font-weight: 500;
+   
+}

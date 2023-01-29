@@ -1,0 +1,28 @@
+#service-area{
+    width: 100%;
+    padding: 40px 0;
+    h1{
+      text-align: center;
+      font-size: 45px;
+    }
+    .container{
+      width:1140px;
+      max-width: 95%;
+      margin:0 auto;
+      display: flex;
+    }
+    .child-service{
+      background-color:$primaryColor;
+      padding: 40px 25px;
+      text-align: center;
+      flex: 1;
+      &:nth-child(odd){
+          background-color:$secondaryColor;
+         
+        }
+    }
+    .child-service:nth-child(odd){
+      background-color:$secondaryColor;
+     
+    }
+  }
